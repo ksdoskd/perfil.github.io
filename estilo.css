@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto {
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgb(255, 255, 255); 
+    padding: 20px; 
+    border-radius: 10px; 
+    color: black; 
+}
+
+.texto img {
+    width: 100px; 
+    margin: 20px auto; 
+    display: block; 
+}

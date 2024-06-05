@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto {
+    font-family: Arial;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.texto h1, .texto p {
+    margin: 0;
+    color: rgb(197, 41, 41); 
+}
+
+.texto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.texto li {
+    margin-bottom: 10px;
+}
+
+.texto a {
+    color: rgba(202, 161, 255, 0.788);
+    text-decoration: none;
+    font-weight: bold;
+}
