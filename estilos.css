@@ -30,7 +30,7 @@ body, html {
 
 .texto h1, .texto p {
     margin: 0;
-    color: rgb(197, 41, 41); 
+    color: rgb(3, 3, 3); 
 }
 
 .texto ul {
@@ -43,7 +43,7 @@ body, html {
 }
 
 .texto a {
-    color: rgba(202, 161, 255, 0.788);
+    color: rgba(122, 41, 228, 0.788);
     text-decoration: none;
     font-weight: bold;
 }
